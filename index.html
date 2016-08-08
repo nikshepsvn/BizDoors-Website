@@ -1,8 +1,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Nikshep Svn Personal Website">
-	<meta name="keywords" content="Nikshep,Svn,Nikshep Svn, waterloo, computer science, computers">
+	<meta name="description" content="BizDoors - Consulting, Interviews, Corporate Videos">
+	<meta name="keywords" content="Consulting,Startup, Interviews, Corporate, Proffesional">
 	<meta name="author" content="Nikshep Svn">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/kube/3.0.2/css/kube.min.css" class="css">  <!-- Linking KubeCSS File -->
 	<link rel="stylesheet" href="css/main.css" class="css"> <!-- Linking custom CSS File -->
@@ -18,6 +18,7 @@
 	<script type="text/javascript" src="particles.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	<title> BizDoors </title>
+	<script type="text/javascript"> $(document).ready(function(){ $("#vid2").fadeOut(); }); </script>
 </head>
 <body>
 <section id='hero'>
@@ -28,10 +29,10 @@
 		<p id='subtitle' class="fade-in title">CREATING STARS FROM BRANDS</p>
 		<a href="#aboutmelink" class="fade-in arrow"><i class="fa fa-chevron-down fa-3x" ></i></a>
 		<row id="icons" class="fade-in icons">
-			<column cols ="3"><a href="http://www.facebook.com/nikshepsvn"><i class="fa fa-facebook fa-5x" ></i></a> </column>
-			<column cols ="3"><a href="mailto:hello@nikshepsvn.com"><i class="fa fa-envelope fa-4x" ></i></a></column>
-			<column cols ="3"><a href="http://linkedin.com/in/nikshepsvn"><i class="fa fa-twitter fa-5x" ></i></a></column>
-			<column cols ="3"><a href="http://github.com/nikshepsvn"><i class="fa fa-youtube fa-5x" ></i></a></column>
+			<column cols ="3"><a href="https://www.facebook.com/bizdoors"><i class="fa fa-facebook fa-5x" ></i></a> </column>
+			<column cols ="3"><a href="mailto:bizdoors@outlook.com"><i class="fa fa-envelope fa-4x" ></i></a></column>
+			<column cols ="3"><a href="https://twitter.com/bizdoors"><i class="fa fa-twitter fa-5x" ></i></a></column>
+			<column cols ="3"><a href="https://www.youtube.com/channel/UCPIvh2yAgCckmvZDawEiW-g/videos?sort=dd&shelf_id=0&view=0"><i class="fa fa-youtube fa-5x" ></i></a></column>
 		</row>
 
 	</div>
@@ -114,8 +115,13 @@ Your browser does not support the video tag. I suggest you upgrade your browser.
 			<p style="color:white">.</p> <!-- Fix to make #projects stop at top of page and not first line of text, remove line to see effect -->
 			<h1 id="maintitleproject2"> PORTFOLIO</h1>	
 			<p id = "skilldesc"> Here are some of our videos.</p>
-			<center><iframe style="position:relative; top:-120px" width="560" height="315" src="https://www.youtube.com/embed/xinQW2-QIy0" frameborder="0" allowfullscreen></iframe></center>
-			<p style="color:white">.</p>
+			<center><iframe style="position:relative; top:-120px" width="560" height="315" src="https://www.youtube.com/embed/xinQW2-QIy0" frameborder="0" allowfullscreen id="vid1"></iframe></center>
+			<center><iframe style="position:relative; top:-120px" width="560" height="315" src="https://www.youtube.com/embed/VAWt0OJ65Bc" frameborder="0" allowfullscreen id="vid2"></iframe></center>
+			<div class="vidbut" style ="text-align:center;position:relative; top:-100px">
+			<a href="javaScript:void(0);" style="color:black;" id="but1"><i class="fa fa-square fa-2x" aria-hidden="true"></i></a>
+			<a href="javaScript:void(0);" style="color:black;" id="but2"><i class="fa fa-square fa-2x" aria-hidden="true"></i></a>
+</div>
+<p style="text-align:center; font-size:150%; position:relative; top:-50px;"> For more videos, please check out our <a style="color:black" href="https://www.youtube.com/channel/UCPIvh2yAgCckmvZDawEiW-g/videos?view=0&shelf_id=0&sort=dd">Youtube.</a></p>
 			<a href="#hero"><i style="color:black" class="fa fa-chevron-up fa-3x" id='arrow1'></i></a>
 			<br><br><br><br><br><br><br>
 			<p id ="footertext"> Made with <i class =" fa fa-heart fa-1x"></i> by Nikshep Svn </p>
@@ -201,7 +207,22 @@ Your browser does not support the video tag. I suggest you upgrade your browser.
     
 });
    </script>
+<script>
+$(document).ready(function(){
+        $("#but1").click(function(){
+        $("#vid2").fadeOut(0);
+        $("#vid1").fadeIn();
+        
+        });
+});
+$(document).ready(function(){
+        $("#but2").click(function(){
+        $("#vid1").fadeOut(0);
+        $("#vid2").fadeIn();
+        });
+});
 
+</script>
 
 </body>
 </html>
