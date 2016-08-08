@@ -87,7 +87,7 @@
 	transform:translateX(-50%) translateY(-50%);
 }
 #maintitle {
-	font-family:'KG Blank Space Sketch';
+	font-family:'KGB';
 	font-size:500%;
 	color:white;
 	position:absolute;
@@ -130,7 +130,7 @@ a:active {
 }
 
 #maintitleproject {
-	font-family:'KG Blank Space Sketch',sans-serif;
+	font-family:'KGB',sans-serif;
 	color:#2CB5E8;
 	/* linear-gradient(0deg, #F6F6F8 0%, #1fc8db 51%, #28BBE4 75%) */
 	font-size:630%;
@@ -139,7 +139,7 @@ a:active {
 	text-align:center;
 }
 #maintitleproject1 {
-	font-family:'KG Blank Space Sketch',sans-serif;
+	font-family:'KGB',sans-serif;
 	font-size:700%;
 	color:#0A77BB;
 	text-align:center;
