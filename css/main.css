@@ -411,6 +411,66 @@ a:active {
 }
 
 
+@media screen and (max-width: 1366px) {
+	#titletext{
+		font-size:320%;
+	}
+	
+	strong{
+		font-size:100%;
+	}
+	#arrow2{
+		top:13%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#titletext{
+		font-size:230%;
+	}
+	#maintitleproject{
+		margin-top:10%;
+	}
+	#projectdesc{
+		font-size:225%;
+	}
+	strong{
+		font-size:110%;
+	}
+	#arrow2{
+		top:19%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#titletext{
+		font-size:240%;
+	}
+	#maintitleproject{
+		margin-top:15%;
+	}
+	#projectdesc{
+		font-size:130%;
+	}
+	strong{
+		font-size:100%;
+	}
+	#arrow2{
+		top:19%;
+	}
+	#projectdesc1{
+		font-size:80%;
+	}
+	#teamarrow{
+		top:100px;
+	}
+	#pic{
+		width:150px;
+	}
+	#skilldesc{
+		top:-15%;
+	}
+}
 
 
 
