@@ -465,7 +465,7 @@ a:active {
 		font-size:80%;
 	}
 	#teamarrow{
-		top:100px;
+		display:none;
 	}
 	#pic{
 		width:150px;
