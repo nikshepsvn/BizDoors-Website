@@ -75,6 +75,9 @@
   	background-size: cover;
 	z-index: -100;	
 }
+#teamarrow{
+	position:relative; top:-7%; color:white;
+}
 .ourteam{
 	width:100%;
 	height:100%;
