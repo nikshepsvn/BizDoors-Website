@@ -242,6 +242,8 @@ a:active {
 	margin-right:35%;
 	border:2px solid white;
 }
+#vid1{position:relative; top:-120px}
+#vid2{position:relative; top:-120px}
 #footertext {
 	text-align:center;
 	color:black;
@@ -327,6 +329,12 @@ a:active {
 }
 
 
+#titletext
+{
+	font-size:400%;
+}
+
+
 @media screen and (max-width: 550px) {
 	#maintitle {
 		font-size:300%;
@@ -341,7 +349,7 @@ a:active {
 		margin-top:10%;
 	}
 	#projectdesc{
-		font-size: 100%;
+		font-size: 160%;
 		position:relative;
 		top:-13%;
 	}
@@ -364,12 +372,39 @@ a:active {
 		margin:0%;
 	}
 	
-}
-
-
 #titletext
 {
-	font-size:400%;
+	font-size:300%;
+}
+	#mayo{
+		position: relative;			
+		top:-5%;
+	}
+	
+	#maintitleproject2{
+		font-size:400%;
+		position:relative;
+		top:-3%;
+	}
+	#vid1{
+		width:400px;
+		height:220px;
+		top:-80px;
+	}
+		#vid2{
+		width:400px;
+		height:220px;
+		top:-80px;
+	}
+	.fa-chevron-right{
+		position: relative;
+			top:30px;
+	}
+	
+	.fa-chevron-left{
+		position: relative;
+			top:30px;
+	}
 }
 
 
