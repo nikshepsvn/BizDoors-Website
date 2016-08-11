@@ -287,7 +287,44 @@ a:active {
 	}
 }
 
-
+@media screen and (max-height: 1200px) {
+	#maintitle {
+		font-size:400%;
+		top:57%;
+	}
+	#subtitle{
+		font-size:300%;
+		top:65%;
+	}
+	#maintitleproject{
+		font-size:400%;
+		margin-top:5%;
+	}
+	#projectdesc{
+		font-size: 300%;
+		position:relative;
+		top:-13%;
+	}
+	strong{
+		font-size:120%;
+	}
+	#maintitleproject1{
+		font-size:450%;
+	}
+	#projectdesc1{
+		margin:0;
+		font-size:100%;
+		padding:0;
+	}
+	#projecttitle{
+		margin:0;
+		padding:0;
+	}
+	#wrapper{
+		margin:0%;
+	}
+	
+}
 
 
 
