@@ -327,8 +327,50 @@ a:active {
 }
 
 
+@media screen and (max-width: 550px) {
+	#maintitle {
+		font-size:300%;
+		top:60%;
+	}
+	#subtitle{
+		font-size:200%;
+		top:67%;
+	}
+	#maintitleproject{
+		font-size:300%;
+		margin-top:10%;
+	}
+	#projectdesc{
+		font-size: 100%;
+		position:relative;
+		top:-13%;
+	}
+	strong{
+		font-size:110%;
+	}
+	#maintitleproject1{
+		font-size:350%;
+	}
+	#projectdesc1{
+		margin:0;
+		font-size:100%;
+		padding:0;
+	}
+	#projecttitle{
+		margin:0;
+		padding:0;
+	}
+	#wrapper{
+		margin:0%;
+	}
+	
+}
 
 
+#titletext
+{
+	font-size:400%;
+}
 
 
 
