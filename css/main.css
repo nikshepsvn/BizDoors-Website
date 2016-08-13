@@ -195,7 +195,7 @@ a:active {
 	transform:translateX(-50%) translateY(-50%);
 }
 
-.ghost-button {
+.ghost {
   display: inline-block;
   width: 200px;
   padding: 8px;
