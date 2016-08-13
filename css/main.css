@@ -200,7 +200,12 @@ a:active {
 	left:50%;
 	transform:translateX(-50%) translateY(-50%);
 }
-
+#arrow3 {
+	position:relative;
+	text-align:center;
+	color:#2CB5E8;
+	transform:translateX(-50%) translateY(-50%);
+}
 .ghost {
   display: inline-block;
   width: 200px;
