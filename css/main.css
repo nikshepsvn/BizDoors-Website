@@ -269,7 +269,8 @@ a:active {
 #footertext {
 	text-align:center;
 	color:black;
-	
+	position:relative;
+	top:50px;
 	margin:0;
 	padding:0;
 }
