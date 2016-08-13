@@ -35,6 +35,14 @@
 	width:100%;
 	overflow: hidden;
 }
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
 #pic{
 	position:relative;
 	border-radius:5%;
