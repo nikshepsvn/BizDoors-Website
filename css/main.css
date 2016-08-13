@@ -364,7 +364,7 @@ label, input,textarea {
 
 input,textarea {
     margin-bottom: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 550px) {
