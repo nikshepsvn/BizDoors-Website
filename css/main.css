@@ -36,13 +36,7 @@
 	overflow: hidden;
 }
 
-label, input {
-    display: block;
-}
 
-label {
-    margin-bottom: 20px;
-}
 #pic{
 	position:relative;
 	border-radius:5%;
@@ -362,6 +356,13 @@ a:active {
 	font-size:400%;
 }
 
+label, input {
+    display: inline-block;
+}
+
+label {
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width: 550px) {
 	#maintitle {
