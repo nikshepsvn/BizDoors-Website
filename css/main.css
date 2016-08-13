@@ -195,6 +195,26 @@ a:active {
 	transform:translateX(-50%) translateY(-50%);
 }
 
+.ghost {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost:hover,
+.ghost:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+
 #arrow2 {
 	position:relative;
 	text-align:center;
