@@ -356,8 +356,9 @@ a:active {
 	font-size:400%;
 }
 
-label, input {
+label, input,textarea {
     display: block;
+    margin:0 auto;
 }
 
 label {
