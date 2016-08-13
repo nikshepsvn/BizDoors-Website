@@ -361,8 +361,8 @@ label, input,textarea {
     margin:0 auto;
 }
 
-label {
-    margin-bottom: 30px;
+label,textarea {
+    margin-bottom: 70px;
 }
 
 @media screen and (max-width: 550px) {
