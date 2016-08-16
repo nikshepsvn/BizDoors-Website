@@ -38,6 +38,11 @@
 	</div>
 </section>
 
+<section id="introvid"  class="hideme">
+		<div class ="introvideo" >
+			<iframe id="vid3" src="https://www.youtube.com/embed/R4yi-K-4Z4s" frameborder="0" allowfullscreen></iframe>
+			</div>
+			</section>
 <section id="aboutmelink"  class="hideme">
 		<div class ="aboutme" >
 
@@ -251,6 +256,17 @@ $(document).ready(function(){
         
         });
 });
+
+$(function(){
+  $('#vid3').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+  // If you want to keep full screen on window resize
+  $(window).resize(function(){
+    $('#vid3').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  });
+});
+
+
 $(document).ready(function(){
         $("#but2").click(function(){
         $("#vid1").fadeOut(0);
