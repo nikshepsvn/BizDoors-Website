@@ -119,6 +119,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fbdfd', end
 	text-align:center;
 	transform:translateX(-50%) translateY(-50%);
 }
+.darkbox
+{
+	background-color:black;
+}
 strong{
 	font-size:150%;
 }
