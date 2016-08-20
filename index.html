@@ -18,7 +18,11 @@
 	<script type="text/javascript" src="particles.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	<title> BizDoors </title>
-	<script type="text/javascript"> $(document).ready(function(){ $("#vid2").fadeOut(); }); </script>
+	<script type="text/javascript"> $(document).ready(function(){ $("#vid2").fadeOut(); });
+	$(document).ready(function(){ $("#vid3").fadeOut(); });
+	$(document).ready(function(){ $("#vid4").fadeOut(); });
+	
+	</script>
 	<link rel="shortcut icon" type="image/png" href="/media/social/logo.png"/>
 	<link rel="icon" type="image/png" href="/media/social/logo.png"/>
 	<script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
@@ -155,9 +159,13 @@ Your browser does not support the video tag. I suggest you upgrade your browser.
 			<p id = "skilldesc"> Here are some of our videos.</p>
 			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/CMw0_y9xnF4" frameborder="0" allowfullscreen id="vid1"></iframe></center>
 			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/cVZUOnPZzfE" frameborder="0" allowfullscreen id="vid2"></iframe></center>
+			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/osZDZoeB7aU" frameborder="0" allowfullscreen id="vid3"></iframe></center>
+			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/IDtHHD9wab8" frameborder="0" allowfullscreen id="vid4"></iframe></center>
 			<div class="vidbut" style ="text-align:center;position:relative; top:-100px">
-			<a href="javaScript:void(0);" style="color:white;margin-right:4%;" id="but1"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></a>
-			<a href="javaScript:void(0);" style="color:white;margin-left:4%;" id="but2"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></a>
+			<a href="javaScript:void(0);" style="color:white;" id="but1"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></a>
+			<a href="javaScript:void(0);" style="color:white;" id="but2"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></a>
+			<a href="javaScript:void(0);" style="color:white;" id="but3"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></a>
+			<a href="javaScript:void(0);" style="color:white;" id="but4"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></a>
 </div>
 <p style="text-align:center; font-size:150%; position:relative; top:-50px;color:white;"> For more videos, please check out our <a style="color:white" href="https://www.youtube.com/channel/UCPIvh2yAgCckmvZDawEiW-g/videos?view=0&shelf_id=0&sort=dd">Youtube.</a></p>
 			
@@ -285,16 +293,37 @@ Your browser does not support the video tag. I suggest you upgrade your browser.
 $(document).ready(function(){
         $("#but1").click(function(){
         $("#vid2").fadeOut(0);
+        $("#vid3").fadeOut(0);
+        $("#vid4").fadeOut(0);
         $("#vid1").fadeIn();
         
         });
 });
 
-
 $(document).ready(function(){
         $("#but2").click(function(){
         $("#vid1").fadeOut(0);
+        $("#vid3").fadeOut(0);
+        $("#vid4").fadeOut(0);
         $("#vid2").fadeIn();
+        });
+});
+
+$(document).ready(function(){
+        $("#but3").click(function(){
+        $("#vid2").fadeOut(0);
+        $("#vid4").fadeOut(0);
+        $("#vid1").fadeOut(0);
+        $("#vid3").fadeIn();
+        });
+});
+
+$(document).ready(function(){
+        $("#but4").click(function(){
+        $("#vid1").fadeOut(0);
+        $("#vid2").fadeOut(0);
+        $("#vid3").fadeOut(0);
+        $("#vid4").fadeIn();
         });
 });
 
