@@ -384,6 +384,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#289dfc', end
 		margin:0%;
 	}
 	
+	#testitext1
+	{
+		font-size:2em;
+	}
+	
+	#testitext2{
+		font-size:0.7em;
+	}
+	
 }
 
 
@@ -476,6 +485,15 @@ input,textarea {
 	#teamarrow{
 		top:110px;
 	}
+	
+		#testitext1
+	{
+		font-size:1.5em;
+	}
+	
+	#testitext2{
+		font-size:0.5em;
+	}
 }
 
 
@@ -537,6 +555,15 @@ input,textarea {
 	}
 	#skilldesc{
 		top:-15%;
+	}
+	
+		#testitext1
+	{
+		font-size:1.5em;
+	}
+	
+	#testitext2{
+		font-size:0.5em;
 	}
 }
 
