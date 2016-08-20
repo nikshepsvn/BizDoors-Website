@@ -11,6 +11,12 @@
   z-index: 0;
   position: absolute;
 }
+#testitext1{
+	 font-size:3em;
+}
+#testitext2{
+	 font-size:1.2em;
+}
 .testimonials{
 	width:100%;
 	height:100%;
