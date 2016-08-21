@@ -1,3 +1,7 @@
+.fancybox-lock body {
+    overflow: hidden !important;
+}
+
 @font-face {
     font-family: "Moon";
     src: url("../fonts/MoonL.eot");
