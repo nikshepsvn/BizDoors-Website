@@ -1,5 +1,5 @@
-html {
-    overflow: hidden !important;
+.fancybox, .various {
+    overflow: visible !important;
 }
 
 @font-face {
