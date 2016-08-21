@@ -1,5 +1,5 @@
 .fancybox-lock body {
-    overflow: hidden !important;
+    overflow: visible !important;
 }
 
 @font-face {
