@@ -577,7 +577,12 @@ input,textarea {
 	}
 }
 
-
+@media screen and (max-height: 730px) {
+	#projectdesc{
+		font-size:2.5em;
+	}
+	
+}
 
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
