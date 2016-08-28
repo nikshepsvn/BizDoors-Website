@@ -4,12 +4,11 @@
 
 #testitext1{
 	position:relative;
-	margin-top:0.5%;
+	margin-top:0.2%;
 }
 #testitext2{
 	position:relative;
 	bottom:110px;
-	margin-top:0.3%;
 }
 @font-face {
     font-family: "Moon";
