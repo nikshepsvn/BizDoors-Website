@@ -2,6 +2,12 @@
     overflow: visible !important;
 }
 
+#testitext1{
+	margin-bottom:2%;
+}
+#testitext2{
+	margin-bottom:5%;
+}
 @font-face {
     font-family: "Moon";
     src: url("../fonts/MoonL.eot");
