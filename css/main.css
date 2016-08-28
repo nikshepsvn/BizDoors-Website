@@ -2,6 +2,9 @@
     overflow: visible !important;
 }
 
+.testimonials {
+	 margin:0;
+}
 #testitext1{
 	position:relative;
 	margin-top:30px;
