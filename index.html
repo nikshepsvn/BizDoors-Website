@@ -333,7 +333,14 @@ $(document).ready(function(){
 </script>
 
 <script>
-$('.various').fancybox();
+$('.various').fancybox({
+ scrolling   : 'hidden',
+        helpers: {
+            overlay: {
+              locked: true 
+            }
+
+});
 </script>
 
 </body>
