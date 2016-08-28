@@ -3,10 +3,12 @@
 }
 
 #testitext1{
-	margin-bottom:20%;
+	position:relative;
+	margin-bottom:5%;
 }
 #testitext2{
-	margin-bottom:40%;
+	position:relative;
+	margin-bottom:7%;
 }
 @font-face {
     font-family: "Moon";
