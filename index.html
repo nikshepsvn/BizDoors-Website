@@ -332,10 +332,17 @@ $(document).ready(function(){
 
 </script>
 <script>
+   <script>
     $(document).ready(function() {
-        $('.various').fancybox();
+        $('.various').fancybox({
+            scrolling : 'no',
+            autoScale : true,
+            autoDimensions : true,
+            centerOnScroll : false
+            
+            });
     });
-    
+</script>
 </script>
 </body>
 </html>
