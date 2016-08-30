@@ -487,7 +487,7 @@ input,textarea {
 		color:white;
 	}
 	.vidbut{
-		top:-150px;
+		margin-top:5%;
 	}
 	#vid1{
 		width:400px;
