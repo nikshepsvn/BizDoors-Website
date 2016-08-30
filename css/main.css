@@ -486,6 +486,9 @@ input,textarea {
 		top:-3%;
 		color:white;
 	}
+	.vidbut{
+		top:-150px;
+	}
 	#vid1{
 		width:400px;
 		height:220px;
